@@ -1,0 +1,102 @@
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'banking', 'oldstyle' and 'fancy'
+\moderncvcolor{blue}                               % color options 'black', 'blue' (default), 'burgundy', 'green', 'grey', 'orange', 'purple' and 'red'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+\usepackage{url}
+\usepackage{hyperref}
+
+% adjust the page margins
+\usepackage[scale=0.90]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{}{Anand Patel}
+\address{Kollam, Kerala, India}% optional, remove / comment the line if not wanted; the "postcode city" and "country" arguments can be omitted or provided empty
+\phone[mobile]{+91 7460971863}                   % optional, remove / comment the line if not wanted; the optional "type" of the phone can be "mobile" (default), "fixed" or "fax"
+\email{anand25699@gmail.com}                               % optional, remove / comment the line if not wanted
+\homepage{devtechnocode.github.io}                         % optional, remove / comment the line if not wanted
+\social[linkedin]{devtechnocode}                        % optional, remove / comment the line if not wanted
+\social[github]{devtechnocode}                        % optional, remove / comment the line if not wanted
+
+% bibliography adjustements (only useful if you make citations in your resume, or print a list of publications using BibTeX)
+%   to show numerical labels in the bibliography (default is to show no labels)
+\makeatletter\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}\makeatother
+%   to redefine the bibliography heading string ("Publications")
+%\renewcommand{\refname}{Articles}
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+\section{OBJECTIVE}
+\cvitem{}{Seeking a position in the field of Computer Science where I can utilize my skills to further work towards personal and professional development and contribute towards the prosperity of the organization.Self motivated and eager to learn new things and develop new things.}
+
+\section{EDUCATION}
+\cventry{2019-2023 Ongoing}{B.Tech in Computer Science Engineering}{Amrita Vishwa Vidyapeetham}{Kollam, Kerala, India}{}
+{\textit{CGPA: 8.6/10}}{}  % arguments 3 to 6 can be left empty
+\cventry{2018}{Sunbeam English School}{}{Bhagwanpur Varanasi, U.P., India}{}
+{\textit{Percentage: 89.2\%  }}{}  % arguments 3 to 6 can be left empty
+\cventry{2016}{Sunbeam English School}{}{Bhagwanpur Varanasi, U.P., India}{}
+{\textit{Percentage: 9 CGPA  }}{}  % arguments 3 to 6 can be left empty
+
+\section{EXPERIENCE}
+\cventry{Feburary 2020}{Member at CS-Star}{}{}{}
+{CS-Star is the Web developer club of my college. I have been an active member of the community from the time I joined it.}
+ % arguments 3 to 6 can be left empty
+
+\section{COURSE PROJECTS}
+\cventry{April 2020}{Personal Website}{}{}{}
+{Ms. Anjuna Devaraj, Dept. of Computer Science, ASE, Amritapuri.{\newline}
+This is personal website based on Html, CSS , JavaScript and Bootstrap. Link to website:{\newline}
+\url{https://devtechnocode.github.io/UI-Design/}}{}
+% arguments 3 to 6 can be left empty
+
+\section{VOLUNTEER}
+\cventry{September 2019}{Amma's Birthday Celebration}{}{}{}
+{Helped in volunteering as I was the host of the program arrange for the the pulwama martyrs family. }
+
+\section{COURSEWORK}
+\cvitemwithcomment{Core Courses}{Data Structure, Object Oriented Programming, User Interface Design , Engineering Physics, EEE, Mathematics }{}
+\cvitemwithcomment{Lab Courses}{Computer Aided Design Lab, Object Oriented Programming Python Lab, Computer Essentials Lab,Hardware Lab.}{}
+\section{LANGUAGES}
+\cvitemwithcomment{English}{Full Professional Proficiency}{}
+\cvitemwithcomment{{Hindi}{Native Tongue, Full Professional Proficiency}{}
+
+\section{COMPUTER SKILLS}
+\cvitem{OS}{Linux, Windows}
+\cvitem{Programming Languages}{Python, C++, C, MySQL}
+\cvitem{VCS}{Git}
+\cvitem{Other Skills}{Web Development, AutoCad , Problem Solving, Adobe Photoshop}
+
+\section{INTERESTS}
+\cvitem{Technical}{Web Development, Front-end development, Deep Learning, Cloud computing, Contributing to Open Source}
+\cvitem{Hobbies}{Travelling, Photography}
+
+\section{PERSONAL DETAILS}
+\cvitem{DOB}{25th June, 2000}
+\cvitem{Current Residence}{Kollam,Kerala, India}
+\cvitem{Status}{Student}
+
+\clearpage
+%\clearpage\end{CJK*}                              % if you are typesetting your resume in Chinese using CJK; the \clearpage is required for fancyhdr to work correctly with CJK, though it kills the page numbering by making \lastpage undefined
+\end{document}
+
+
+%% end of file `template.tex'.
+
